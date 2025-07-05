@@ -177,6 +177,10 @@ This repository contains implementations of various AI and graph search algorith
 - **Time Complexity:** O(b^d) in worst case, much better with good heuristic
 - **Space Complexity:** O(b^d)
 
+#### Input & Output Example:
+
+![A* Search Input & Output](Images/a_star.png)
+
 ---
 
 ### 7. Bidirectional Search
@@ -230,6 +234,10 @@ This repository contains implementations of various AI and graph search algorith
 - **Time Complexity:** O(k _ d _ b) where k = beam width
 - **Space Complexity:** O(k \* d)
 
+#### Input & Output Example:
+
+![Beam Search Input & Output](Images/beam_search.png)
+
 ---
 
 ## Game Theory Algorithms
@@ -256,6 +264,10 @@ This repository contains implementations of various AI and graph search algorith
 
 - **Time Complexity:** O(b^d) where b = branching factor, d = depth
 - **Space Complexity:** O(d)
+
+#### Input & Output Example:
+
+![Minimax Input & Output](Images/minmax.png)
 
 ---
 
@@ -313,6 +325,10 @@ This repository contains implementations of various AI and graph search algorith
 
 - **Time Complexity:** O(n \* m) where n = number of steps, m = neighbors per step
 - **Space Complexity:** O(1)
+
+#### Input & Output Example:
+
+![Hill Climbing Input & Output](Images/hill_climbing.png)
 
 ---
 
