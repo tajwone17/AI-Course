@@ -21,10 +21,11 @@ void dfs(int v)
     // take action on vertex before exiting the vertex
 }
 int main()
-
 {
     int v, e;
+    cout << "Enter number of vertices and edges: ";
     cin >> v >> e;
+    cout << "Enter edges (each as two space-separated vertices):" << endl;
     for (int i = 0; i < e; i++)
     {
         int n1, n2;
@@ -33,5 +34,7 @@ int main()
         g[n2].push_back(n1);
     }
 
+    cout << "DFS traversal starting from node 1: ";
     dfs(1);
+    cout << endl;
 }

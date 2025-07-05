@@ -46,7 +46,9 @@ bool iddfs(int start, int maxDepth)
 int main()
 {
     int v, e, start;
+    cout << "Enter number of vertices and edges: ";
     cin >> v >> e;
+    cout << "Enter the edges (each as two vertex numbers):" << endl;
     for (int i = 0; i < e; i++)
     {
         int n1, n2;
@@ -56,8 +58,10 @@ int main()
     }
 
     int maxDepth;
+    cout << "Enter start vertex, target vertex, and maximum depth: ";
     cin >> start >> target >> maxDepth;
 
+    cout << "Iterative Deepening DFS traversal:" << endl;
     if (!iddfs(start, maxDepth))
     {
         cout << "Target vertex not found within the maximum depth." << endl;

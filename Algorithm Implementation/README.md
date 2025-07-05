@@ -37,6 +37,10 @@ This repository contains implementations of various AI and graph search algorith
 - **Time Complexity:** O(V + E) where V = vertices, E = edges
 - **Space Complexity:** O(V) for the queue and visited array
 
+#### Input & Output Example:
+
+![BFS Input & Output](Images/bfs.png)
+
 ---
 
 ### 2. Depth-First Search (DFS)
@@ -62,6 +66,10 @@ This repository contains implementations of various AI and graph search algorith
 - **Time Complexity:** O(V + E)
 - **Space Complexity:** O(V) for recursion stack/explicit stack
 
+#### Input & Output Example:
+
+![DFS Input & Output](Images/dfs.png)
+
 ---
 
 ### 3. Depth-Limited Search
@@ -84,6 +92,10 @@ This repository contains implementations of various AI and graph search algorith
 
 - **Time Complexity:** O(b^l) where b = branching factor, l = depth limit
 - **Space Complexity:** O(l)
+
+#### Input & Output Example:
+
+![Depth-Limited Search Input & Output](Images/depth_limited_search.png)
 
 ---
 
@@ -108,6 +120,10 @@ This repository contains implementations of various AI and graph search algorith
 - **Time Complexity:** O(b^d) where d = depth of solution
 - **Space Complexity:** O(d)
 
+#### Input & Output Example:
+
+![Iterative Deepening Search Input & Output](Images/iterative_deepening_search.png)
+
 ---
 
 ### 5. Best-First Search
@@ -131,6 +147,10 @@ This repository contains implementations of various AI and graph search algorith
 
 - **Time Complexity:** O(b^m) where m = maximum depth
 - **Space Complexity:** O(b^m)
+
+#### Input & Output Example:
+
+![Best-First Search Input & Output](Images/best_first_search.png)
 
 ---
 
@@ -180,6 +200,10 @@ This repository contains implementations of various AI and graph search algorith
 
 - **Time Complexity:** O(b^(d/2)) - significant improvement over single-direction search
 - **Space Complexity:** O(b^(d/2))
+
+#### Input & Output Example:
+
+![Bidirectional Search Input & Output](Images/bidirectional.png)
 
 ---
 
@@ -257,6 +281,10 @@ This repository contains implementations of various AI and graph search algorith
 
 - **Time Complexity:** O(b^(d/2)) in best case, O(b^d) in worst case
 - **Space Complexity:** O(d)
+
+#### Input & Output Example:
+
+![Alpha-Beta Pruning Input & Output](Images/alpha_beta_prunning.png)
 
 ---
 

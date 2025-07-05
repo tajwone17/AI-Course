@@ -31,7 +31,9 @@ void dfs(int v, int depth)
 int main()
 {
     int v, e;
+    cout << "Enter number of vertices and edges: ";
     cin >> v >> e;
+    cout << "Enter the edges (u v):\n";
     for (int i = 0; i < e; i++)
     {
         int n1, n2;
@@ -41,6 +43,7 @@ int main()
     }
 
     int start;
+    cout << "Enter start node, target node, and max depth: ";
     cin >> start >> target >> maxDepth;
 
     dfs(start, 0);
