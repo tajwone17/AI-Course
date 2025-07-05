@@ -1,4 +1,4 @@
-"# AI Course - Artificial Intelligence
+# AI Course - Artificial Intelligence
 
 ## Purpose of this Course
 
