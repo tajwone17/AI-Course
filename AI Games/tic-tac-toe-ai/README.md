@@ -2,18 +2,96 @@
 
 Welcome to this detailed guide to the Tic Tac Toe game with AI! This document will help you understand how the game works, its key features, and break down the important functions in the codebase. This guide is designed for beginners who want to understand the implementation of a classic game with an intelligent opponent.
 
+## Quick Start Guide
+
+### How to Run the Game
+
+1. **Download the files**: Ensure you have all the game files in the correct folder structure:
+
+   - `index.html` (main file)
+   - `css/style.css` (styling)
+   - `js/app.js` (core game logic)
+   - `js/game.js` (game management)
+   - `js/ai.js` (AI implementation)
+
+2. **Open the HTML file**: Double-click on `index.html` to open it in your web browser
+
+3. **Start playing**: The game will load automatically and prompt you to enter your name
+
+### Prerequisites
+
+**No installation required!** This game runs entirely in your web browser using:
+
+- **HTML5** for the structure
+- **CSS3** for styling and animations
+- **Vanilla JavaScript** for game logic and AI
+
+**Browser Requirements:**
+
+- Any modern web browser (Chrome, Firefox, Safari, Edge)
+- JavaScript enabled (enabled by default in most browsers)
+
+### How to Play
+
+1. **Enter Your Name**: When the game loads, enter your name in the prompt dialog
+2. **Make Your Move**: You play as "X" - click on any empty cell to place your mark
+3. **AI Response**: The computer plays as "O" and will automatically make its move after you
+4. **Win Condition**: Get three of your marks in a row (horizontal, vertical, or diagonal) to win
+5. **Score Tracking**: Your wins vs AI wins are displayed at the top of the screen
+6. **Game Controls**:
+   - **Reset Game**: Start a new round (keeps the same scores)
+   - **New Game**: Start completely fresh (resets scores)
+
+**Controls:**
+
+- **Mouse Click**: Click on empty cells to make moves
+- **Reset Button**: Clear the current game
+- **New Game Button**: Start over with fresh scores
+
+### Algorithms Used
+
+This game implements several important algorithms and programming concepts:
+
+1. **Minimax Algorithm**:
+
+   - **Purpose**: Ensures the AI makes optimal moves
+   - **How it works**: Recursively evaluates all possible future game states
+   - **Result**: The AI is unbeatable - best you can achieve is a draw
+   - **Time Complexity**: O(b^d) where b is branching factor and d is depth
+
+2. **Game Tree Search**:
+
+   - **Depth-First Search**: Explores game states recursively
+   - **Backtracking**: Undoes moves to explore other possibilities
+   - **Alpha-Beta Pruning**: Could be added for optimization (not implemented here)
+
+3. **Game State Management**:
+
+   - **State Representation**: 1D array representing the 3x3 board
+   - **Win Detection**: Pattern matching against winning combinations
+   - **Turn Management**: Alternates between human and AI players
+
+4. **Event-Driven Programming**:
+   - **DOM Event Handling**: Responds to user clicks
+   - **Asynchronous Updates**: Updates UI based on game state changes
+
 ## Table of Contents
 
-1. [Game Overview](#game-overview)
-2. [Project Structure](#project-structure)
-3. [HTML Structure](#html-structure)
-4. [CSS Styling](#css-styling)
-5. [JavaScript Files](#javascript-files)
+1. [Quick Start Guide](#quick-start-guide)
+   - [How to Run the Game](#how-to-run-the-game)
+   - [Prerequisites](#prerequisites)
+   - [How to Play](#how-to-play)
+   - [Algorithms Used](#algorithms-used)
+2. [Game Overview](#game-overview)
+3. [Project Structure](#project-structure)
+4. [HTML Structure](#html-structure)
+5. [CSS Styling](#css-styling)
+6. [JavaScript Files](#javascript-files)
    - [app.js - Core Game Logic](#appjs---core-game-logic)
    - [game.js - Game Management](#gamejs---game-management)
    - [ai.js - AI Implementation](#aijs---ai-implementation)
-6. [How to Play](#how-to-play)
-7. [Extending the Game](#extending-the-game)
+7. [How to Play](#how-to-play)
+8. [Extending the Game](#extending-the-game)
 
 ## Game Overview
 

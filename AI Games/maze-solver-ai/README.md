@@ -2,15 +2,72 @@
 
 This guide explains every important function in the Super Simple Maze Solver, breaking down complex concepts into easy-to-understand explanations. It's perfect for beginners who want to understand how maze generation and the race game mode work.
 
+## Quick Start Guide
+
+### How to Run the Game
+
+1. **Download the files**: Ensure you have both `super-simple-maze.html` and `super-simple-maze.js` in the same folder
+2. **Open the HTML file**: Double-click on `super-simple-maze.html` to open it in your web browser
+3. **Start playing**: The game will load automatically in your browser
+
+### Prerequisites
+
+**No installation required!** This game runs entirely in your web browser using:
+
+- **HTML5** for the structure
+- **CSS3** for styling
+- **Vanilla JavaScript** for game logic
+
+**Browser Requirements:**
+
+- Any modern web browser (Chrome, Firefox, Safari, Edge)
+- JavaScript enabled (enabled by default in most browsers)
+
+### How to Play
+
+1. **Generate a Maze**: Click the "Generate New Maze" button to create a random maze
+2. **Start the Race**: Click "Start Race!" to begin competing against the computer
+3. **Move Your Player**: Use the arrow keys or WASD keys to navigate through the maze
+   - ↑/W: Move up
+   - ↓/S: Move down
+   - ←/A: Move left
+   - →/D: Move right
+4. **Win Condition**: Be the first to reach the red exit square
+5. **Restart**: Press 'R' key during or after a race to restart
+6. **Score Tracking**: Your wins vs computer wins are displayed at the top
+
+### Algorithms Used
+
+This game implements several important algorithms:
+
+1. **Maze Generation**:
+
+   - **Recursive Backtracking Algorithm** - Creates random mazes by carving paths through a grid of walls
+   - Ensures every path is reachable and creates a single solution path
+
+2. **Pathfinding**:
+
+   - **Depth-First Search (DFS)** - The computer uses DFS to find a path from start to finish
+   - Backtracking mechanism to explore all possible routes
+
+3. **Game State Management**:
+   - Event-driven programming for handling user input
+   - Real-time collision detection for valid moves
+
 ## Table of Contents
 
-1. [Introduction and Overview](#introduction-and-overview)
-2. [Core Concepts](#core-concepts)
-3. [Maze Generation Functions](#maze-generation-functions)
-4. [Display and Visualization Functions](#display-and-visualization-functions)
-5. [Race Mode Functions](#race-mode-functions)
-6. [Utility Functions](#utility-functions)
-7. [Putting It All Together](#putting-it-all-together)
+1. [Quick Start Guide](#quick-start-guide)
+   - [How to Run the Game](#how-to-run-the-game)
+   - [Prerequisites](#prerequisites)
+   - [How to Play](#how-to-play)
+   - [Algorithms Used](#algorithms-used)
+2. [Introduction and Overview](#introduction-and-overview)
+3. [Core Concepts](#core-concepts)
+4. [Maze Generation Functions](#maze-generation-functions)
+5. [Display and Visualization Functions](#display-and-visualization-functions)
+6. [Race Mode Functions](#race-mode-functions)
+7. [Utility Functions](#utility-functions)
+8. [Putting It All Together](#putting-it-all-together)
 
 ## Introduction and Overview
 
@@ -863,14 +920,6 @@ The Super Simple Maze Solver demonstrates several important programming patterns
 
 By understanding each function and how they work together, you can build similar interactive applications and games.
 
-### Next Steps
 
-Now that you understand how the Super Simple Maze Solver works, you might want to try:
-
-1. Changing the maze size or animation speed
-2. Implementing a different maze generation algorithm
-3. Adding a timer to measure how fast you can solve the maze
-4. Creating different difficulty levels by adjusting the computer speed
-5. Adding sound effects or more visual feedback
 
 Happy coding!
