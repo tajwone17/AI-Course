@@ -54,4 +54,25 @@ This game implements several important algorithms:
 
 ---
 
+
+
+### Main Game Interface
+
+![Maze Solver Game Interface](Screenshots/maze_solver.png)
+
+_The main game interface showing a generated maze with player (blue) and computer (green) racing to the exit_
+
+### Key Features Shown
+
+- **Random Maze Generation**: Unique maze layout created using recursive backtracking
+- **Visual Distinction**: Clear color coding for walls, paths, players, and exit
+- **Race Interface**: Player (blue dot) vs Computer (green dot) competition
+- **Score Tracking**: Win counters displayed prominently at the top
+- **Interactive Controls**: Responsive keyboard navigation for smooth gameplay
+- **Game Controls**: Easy maze generation and race start buttons
+
+_Note: Screenshots are stored in the `Screenshots` folder within the project directory._
+
+---
+
 **For detailed implementation guide and function explanations, see [DETAILED_GUIDE.md](DETAILED_GUIDE.md)**

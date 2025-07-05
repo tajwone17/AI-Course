@@ -15,34 +15,6 @@ Running this chess game is simple and requires no installation of additional sof
    - **Mac**: Double-click `index.html` or right-click → "Open With" → Choose your browser
    - **Linux**: Double-click `index.html` or use `xdg-open index.html` in terminal
 
-### Method 2: Local Server (Recommended for Development)
-
-If you plan to modify the code, running a local server is recommended:
-
-1. **Using Python** (if installed):
-
-   ```bash
-   # Python 3
-   python -m http.server 8000
-
-   # Python 2
-   python -m SimpleHTTPServer 8000
-   ```
-
-   Then open `http://localhost:8000` in your browser
-
-2. **Using Node.js** (if installed):
-
-   ```bash
-   npx http-server
-   ```
-
-   Then open the provided URL in your browser
-
-3. **Using VS Code Live Server Extension**:
-   - Install the "Live Server" extension in VS Code
-   - Right-click on `index.html` and select "Open with Live Server"
-
 ## Prerequisites
 
 This chess game requires **no additional software installation**. You only need:

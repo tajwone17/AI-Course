@@ -75,4 +75,24 @@ This game implements several important algorithms and programming concepts:
 
 ---
 
+
+### Main Game Interface
+
+![Tic-Tac-Toe Game Interface](Screenshots/tic-tac-toe.png)
+
+_The main game interface showing the 3x3 grid with X's and O's in play_
+
+### Key Features Shown
+
+- **Clean Interface**: Simple, intuitive design with clear visual feedback
+- **Score Tracking**: Player vs AI score display at the top
+- **Interactive Grid**: Responsive 3x3 board with hover effects
+- **Game Controls**: Reset and New Game buttons for easy game management
+- **Visual Indicators**: Clear marking of X (player) and O (AI) moves
+- **Status Updates**: Real-time feedback on game state and turn information
+
+_Note: Screenshots are stored in the `Screenshots` folder within the project directory._
+
+---
+
 **For detailed implementation guide and code explanations, see [DETAILED_GUIDE.md](DETAILED_GUIDE.md)**
