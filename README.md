@@ -25,8 +25,6 @@ This Artificial Intelligence course is designed to help students understand and 
 - **Reinforcement Learning**: Bellman equations, value iteration, and policy iteration
 
 ### Lab (CSE-06133116 - 1.5 Credit Hours)
-
-- **Python Implementation**: Hands-on coding of AI algorithms
 - **Classical Search Implementation**: BFS, DFS, UCS, Iterative Deepening
 - **Heuristic Search**: A\* algorithm implementation
 - **Local Search**: Hill Climbing, Simulated Annealing, Genetic Algorithms
