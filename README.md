@@ -43,7 +43,10 @@ This Artificial Intelligence course is designed to help students understand and 
 
 ## Course Instructor
 
-**Course taken by**: Razorshi Prozzwal Talukder
+**Course taken by**
+Mr. Razorshi Prozzwal Talukder -
+Lecturer Department of CSE,
+North East University, Bangladesh
 
 ## Course Learning Outcomes
 
