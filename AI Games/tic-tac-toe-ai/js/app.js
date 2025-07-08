@@ -1,4 +1,3 @@
-// File: /tic-tac-toe-ai/tic-tac-toe-ai/js/app.js
 
 const boxes = document.querySelectorAll(".box");
 const msgContainer = document.querySelector(".msg-container");
