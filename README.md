@@ -36,7 +36,7 @@ This Artificial Intelligence course is designed to help students understand and 
 
 - **Theory Course**: 3 hours per week
 - **Lab Course**: 3 hours per week
-- **Total**: 6 hours per week
+- **Total**: 6 hours per week/6months
 - **Prerequisites**:
   - Data Structures and Algorithms (CSE-06131211)
   - Algorithm Design and Analysis Lab (CSE-06132114)
@@ -52,10 +52,10 @@ North East University, Bangladesh
 
 Upon successful completion of this course, students are able to:
 
-1. **CLO1**: Compare AI with human intelligence and traditional information processing, discussing its strengths, limitations, and applications to complex problems
-2. **CLO2**: Apply problem-solving methods (informed, uninformed, local search, adversarial search, CSP, and reinforcement learning) to solve real-life problems
-3. **CLO3**: Apply learning and planning techniques to improve machine intelligence
-4. **CLO4**: Develop communication skills by presenting AI topics and writing technical reports
+1.  Compare AI with human intelligence and traditional information processing, discussing its strengths, limitations, and applications to complex problems
+2.  Apply problem-solving methods (informed, uninformed, local search, adversarial search, CSP, and reinforcement learning) to solve real-life problems
+3.  Apply learning and planning techniques to improve machine intelligence
+4.  Develop communication skills by presenting AI topics and writing technical reports
 
 ## Projects and Implementations
 
