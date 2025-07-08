@@ -1,11 +1,3 @@
-/**
- * SUPER SIMPLE MAZE SOLVER
- * A very beginner-friendly maze generation and solving script
- * No complex patterns, everything is kept simple and well-explained
- */
-
-// ======== SIMPLE SETTINGS ========
-// These settings control how the maze works
 
 // Maze size (how many rows and columns)
 const MAZE_ROWS = 15;
@@ -416,7 +408,7 @@ async function findComputerPath() {
   const visited = new Set();
   computerPath = [];
 
-  // Use DFS to find a path (simplified without animations)
+  // Use DFS to find a path 
   await findPath(START_ROW, START_COL, visited, computerPath);
 }
 
