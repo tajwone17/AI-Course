@@ -60,8 +60,7 @@ Create content covering the combination of:
 
 ### Blog Links Followed:
 
-- [How to Make a Presentation with Gamma AI](https://gamma.app/blog/how-to-make-a-presentation)
-- [Gamma AI Tutorial Guide](https://help.gamma.app/en/)
+- https://www.youtube.com/watch?v=V0lGbone1fM
 
 ## 🎥 How I Created the Video Using InVideo
 
@@ -109,7 +108,5 @@ Create content covering the combination of:
 
 ### Blog Links Followed:
 
-- [InVideo AI Video Generator Tutorial](https://invideo.io/blog/ai-video-generator/)
-- [How to Create Educational Videos with AI](https://invideo.io/blog/how-to-make-educational-videos/)
-- [InVideo Tutorial for Beginners](https://invideo.io/blog/invideo-tutorial/)
+-https://www.youtube.com/watch?v=4g6sOMaOQP8
 

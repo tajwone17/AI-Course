@@ -1,4 +1,3 @@
-
 // Maze size (how many rows and columns)
 const MAZE_ROWS = 15;
 const MAZE_COLS = 21;
@@ -408,7 +407,7 @@ async function findComputerPath() {
   const visited = new Set();
   computerPath = [];
 
-  // Use DFS to find a path 
+  // Use DFS to find a path
   await findPath(START_ROW, START_COL, visited, computerPath);
 }
 

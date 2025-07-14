@@ -75,7 +75,7 @@ function handleBoxClick(event) {
     return;
   }
 
-  updateGameState(boxIndex);
+  pdateGameStateu(boxIndex);
   checkResult();
   if (gameActive) {
     currentPlayer = currentPlayer === "X" ? "O" : "X";
