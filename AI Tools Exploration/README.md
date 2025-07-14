@@ -60,7 +60,7 @@ Create content covering the combination of:
 
 ### Blog Links Followed:
 
-- https://www.youtube.com/watch?v=V0lGbone1fM
+-[How to Make a Presentation with Gamma AI]- https://www.youtube.com/watch?v=V0lGbone1fM
 
 ## 🎥 How I Created the Video Using InVideo
 
